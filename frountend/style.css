@@ -1,0 +1,274 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #cfd4dc, #e2e6eb);
+}
+
+/* CONTAINER */
+.container {
+  width: 90%;
+  margin: 40px auto;
+  background: #e9e4db;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.light {
+  color: #c49a6c;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.signup {
+  background: #2f3e2f;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+/* MAIN */
+.main {
+  display: flex;
+  align-items: center;
+}
+
+/* LEFT SIDE */
+.left {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column; /* IMPORTANT FIX */
+}
+
+.left h1 {
+  margin-bottom: 20px;
+}
+
+/* INPUTS */
+.left input {
+  width: 80%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: none;
+  background: #f5f3ef;
+  display: block;
+}
+
+/* BUTTON */
+.login-btn {
+  width: 85%;
+  padding: 12px;
+  background: #2f3e2f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+/* TEXT */
+.forgot {
+  margin-top: 10px;
+  color: gray;
+}
+
+/* SOCIAL */
+.social-text {
+  margin-top: 20px;
+}
+
+.icons {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+}
+
+/* RIGHT IMAGE */
+.right {
+  flex: 1;
+  text-align: center;
+}
+
+.right img {
+  width: 70%;
+}
+/* BACKGROUND */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #1f2937, #111827);
+  color: white;
+}
+
+/* DASHBOARD */
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 230px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+  cursor: pointer;
+  color: #9ca3af;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.sidebar li:hover,
+.sidebar .active {
+  color: white;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  padding: 30px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(15px);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.hero h1 {
+  font-size: 32px;
+}
+
+.hero p {
+  color: #9ca3af;
+}
+
+.hero img {
+  width: 180px;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  flex: 1;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.card p {
+  color: #e5e7eb;
+}
+<div class="book-section">
+
+  <h2>Add New Book</h2>
+
+  <input id="bookName" placeholder="Book Name">
+  <input id="authorName" placeholder="Author Name">
+
+  <button onclick="addBook()">Add Book</button>
+
+  <h2>Book List</h2>
+
+  <ul id="bookList"></ul>
+
+</div>
+
+/* GRADIENT CARDS */
+.gradient1 {
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+}
+
+.gradient2 {
+  background: linear-gradient(135deg, #10b981, #059669);
+}
+
+.gradient3 {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+}
+
+/* HOVER EFFECT */
+.card:hover {
+  transform: translateY(-10px);
+}
+.book-section {
+  margin-top: 40px;
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.book-section input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+.book-section button {
+  padding: 10px 20px;
+  background: #6366f1;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#bookList {
+  margin-top: 20px;
+}
+
+#bookList li {
+  margin: 10px 0;
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+  border-radius: 6px;
+}
