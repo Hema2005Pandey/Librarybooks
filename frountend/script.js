@@ -6,7 +6,6 @@ function login() {
     alert("Please fill all fields");
     return;
   }
-
   // Demo login
   if (email === "admin@gmail.com" && password === "1234") {
     window.location.href = "dashboard.html";
@@ -15,7 +14,6 @@ function login() {
   }
 }
 let books = [];
-
 function addBook() {
   let bookName = document.getElementById("bookName").value;
   let authorName = document.getElementById("authorName").value;
